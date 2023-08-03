@@ -45,7 +45,7 @@ function initMap(): void {
   });
 
   // The photograph is courtesy of the U.S. Geological Survey.
-  let image = '../images/viavi-new.png';
+  let image = '../images/puneOffice.png';
 console.log(image)
   /**
    * The custom USGSOverlay object contains the USGS image,
