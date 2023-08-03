@@ -12,9 +12,9 @@ function initMap(): void {
   const map = new google.maps.Map(
     document.getElementById('map') as HTMLElement,
     {
-      zoom: 19,
+      zoom: 17,
       center: { lat: 18.567998, lng: 73.7670548 },
-      mapTypeId: 'satellite',
+      mapTypeId: 'terrain',
     }
   );
   // new google.maps.Marker({
@@ -45,7 +45,7 @@ function initMap(): void {
   });
 
   // The photograph is courtesy of the U.S. Geological Survey.
-  let image = '../images/puneOffice.png';
+  let image = '../images/viavi-pune-transparent.png';
 console.log(image)
   /**
    * The custom USGSOverlay object contains the USGS image,
